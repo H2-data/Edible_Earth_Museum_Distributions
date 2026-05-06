@@ -60,8 +60,11 @@ We can see with a simple line chart that zzzzzzzzzzzzzzzzzzzzzzzzzzzzz.
 
 - What is the distribution of taste? What are the top 5?
 
+```Python
 taste_counts = df_exploded1['Taste'].value_counts().reset_index()
 taste_counts.nlargest(5, 'count').set_index('Taste')
+```
+[INSERT TABLE AND VISUAL HERE]
 
 |Taste|Sample Count|
 |---|---|
@@ -73,8 +76,12 @@ taste_counts.nlargest(5, 'count').set_index('Taste')
 
 - What is the distribution of texture? What are the top 5?
 
+```Python
 texture_counts = df_exploded2['Texture'].value_counts().reset_index()
 texture_counts.nlargest(5, 'count').set_index('Texture')
+```
+
+[INSERT TABLE AND VISUAL HERE]
 
 |Texture|Sample Count|
 |---|---|
@@ -87,6 +94,7 @@ texture_counts.nlargest(5, 'count').set_index('Texture')
 To see all comments and Python visuals, please see the analysis section of this project, linked below:
 
 To see the final Tableau dashboard, please see the dashboard section of this project, linked below.
+
 ### **Conclusions:**
 
 - Overall 

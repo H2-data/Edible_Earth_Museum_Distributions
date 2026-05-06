@@ -54,9 +54,11 @@ counts = df['Acq Year'].value_counts().reset_index()
 countsy = counts.sort_values(by = 'Acq Year')
 countsy
 
-[INSERT TABLEAU AND IMAGE DASHBOARD HERE]
+[INSERT TABLEAU IMAGE DASHBOARD HERE]
 
-We can see with a simple line chart that zzzzzzzzzzzzzzzzzzzzzzzzzzzzz.
+- Where and how were the minerals acquired? What are the top 10 countries for mineral acquisition?
+
+[INSERT TOP 10 TABLE, MAP AND MAYBE LIKE A BAR/BUBBLE CHART HERE]
 
 - What is the distribution of taste? What are the top 5?
 
@@ -90,6 +92,10 @@ texture_counts.nlargest(5, 'count').set_index('Texture')
 |Hard|130|
 |Creamy|96|
 |Crunchy|90|
+
+What is the distribution of Shape, Color and Composition?
+
+[INSERT TABLE AND VISUAL HERE]
 
 To see all comments and Python visuals, please see the analysis section of this project, linked below:
 

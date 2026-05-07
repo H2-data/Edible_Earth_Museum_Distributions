@@ -8,11 +8,11 @@
 
 ### **IMPORTANT NOTE:** 
 
-The following data is real data from a real collection exhibit, however most of this information is publicly available on the exhibit website and catalog. Furthermore, I have received permission from masharu to use the visuals and dashboards in my portfolio, and the master dataset will not be shown due to privacy reasons.
+The following data is real data from a real collection exhibit, however most of this information is publicly available on the exhibit website and catalog. Furthermore, I have received permission from masharu, the exhibit curator, to use the visuals and dashboards in my portfolio, and the master dataset will not be shown due to privacy reasons.
 
 ### **Scenario and Objective:**
 
-The Museum of Edible Earth is a collection exhibit created and curated by Masharu Studios. It is a collection of different mineral samples associated with geophagy, the practice of consuming rocks and Earth for health or cultural purposes. I have been asked to answer the following questions:
+The Museum of Edible Earth is a collection exhibit created and curated by Masharu Studios. It is a collection of different mineral samples associated with geophagy, the practice of consuming rocks and earth for health or cultural purposes. I have been asked to answer the following questions:
 
 - What is the distribution of collection samples over the years?
 
@@ -22,27 +22,40 @@ The Museum of Edible Earth is a collection exhibit created and curated by Mashar
 
 - What are the distributions of shape, color and composition?
 
+### **Data Report:**
+
+[INSERT FULLL DASHBOARD HERE]
+
+To interact with the dashboard, see the Tableau section of the project, linked here:
+
 ### **Data Preprocessing:**
 
-Aside from generic cleaning (Outliers, Duplicates and Missing Values), this data presented unique preprocessing challenges. The mineral taste and texture descriptions were actually obtained publicly from comment sections on the website and placed into a word cloud on the mineral sample's catalog page like so: 
+Aside from generic cleaning (outliers, duplicates and missing values), this data presented unique preprocessing challenges. The mineral taste and texture descriptions were actually obtained publicly from comment sections on the website and placed into a word cloud on the mineral sample's catalog page like so: 
+
+[INSERT WEBPAGE EXAMPLE HERE]
 
 This presented the following problems:
 
-1. Because the descriptions from the comment section are so varied, there are over 600 unique descriptions for a relatively small collection of minerals. To solve this, I created a list of 20 tastes and 20 textures, and I applied them to each unique value in Excel. Below are a few examples.
+1. Because the descriptions from the comment section are so varied, there are over 600 unique descriptions for a relatively small collection of minerals, which isn't very good for visualization. To solve this, I created a list of 20 tastes and 20 textures, and I applied them to each unique value in Excel. Below are a few examples.
 
-[INSERT EXAMPLES HERE]
+[INSERT EXAMPLE HERE]
 
-2. Next, I have to map the flavors and textures onto the old ones. I used the following code to ensure that each flavor was replaced with a combination the chosen tastes and textures from my list, and that each one only appears once per row.
+2. Next, I have to map the new shortlist of flavors and textures onto the original data. I used the following code to ensure that each original flavor/texture was replaced with a combination the tastes and textures from my shortlist, and that each one only appears once per row.
+
+[INSERT NIGHTMARE CODE HERE]
 
 Here is the sample output:
 
-[INSERT EXAMPLES HERE]
+[INSERT EXAMPLE HERE]
 
-For analysis and visualization, it will be split using a method called 'explode'. This will split the values of my taste or texture column and duplicate everything around it in a new table.
+For analysis and visualization, the data will be split using a method called 'explode'. This will split the values of my taste or texture column and duplicate everything around it in a new table.
 
-[INSERT EXAMPLES HERE]
+[INSERT CODE HERE]
 
-To see the full scraping and cleaning process, please see the scraping section and the cleaning section of the project, linked below.
+To see the full scraping and cleaning process, please see the scraping section and the preprocessing section of the project, linked below.
+
+Scraping:
+Preprocessing:
 
 ### **Results and Observations:**
 
@@ -101,6 +114,7 @@ To see all comments and Python visuals, please see the analysis section of this 
 
 To see the final Tableau dashboard, please see the dashboard section of this project, linked below.
 
-### **Conclusions:**
+Analysis:
+Tableau:
 
-- Overall 
+### **Conclusions:**

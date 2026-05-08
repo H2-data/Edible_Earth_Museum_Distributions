@@ -81,14 +81,6 @@ taste_counts.nlargest(5, 'count').set_index('Taste')
 ```
 [INSERT TABLE AND VISUAL HERE]
 
-|Taste|Sample Count|
-|---|---|
-|Earthy|119|
-|Milky|96|
-|Experience|86|
-|Herbal|74|
-|Bitter|71|
-
 - What is the distribution of texture? What are the top 5?
 
 ```Python
@@ -97,14 +89,6 @@ texture_counts.nlargest(5, 'count').set_index('Texture')
 ```
 
 [INSERT TABLE AND VISUAL HERE]
-
-|Texture|Sample Count|
-|---|---|
-|Soft|144|
-|Damp|134|
-|Hard|130|
-|Creamy|96|
-|Crunchy|90|
 
 What is the distribution of Shape, Color and Composition?
 

@@ -33,7 +33,7 @@ To interact with the dashboard, see the Tableau section of the project, linked h
 Aside from generic cleaning (outliers, duplicates and missing values), this data presented unique preprocessing challenges. The mineral taste and texture descriptions were actually obtained publicly from comment sections on the website and placed into a word cloud on the mineral sample's catalog page like so: 
 
 <div align="center">
-  <img width="800" height="452" alt="image" src="https://github.com/user-attachments/assets/4d96ef2f-bde6-4319-9299-d0de595ff69d" />
+  <img width="550" height="352" alt="image" src="https://github.com/user-attachments/assets/4d96ef2f-bde6-4319-9299-d0de595ff69d" />
 </div>
 
 This presented the following problems:
@@ -92,11 +92,11 @@ Let's go through and answer each of the data questions:
 
 - What is the distribution of taste? What are the most dominant tastes?
 
-<img width="1228" height="675" alt="image" src="https://github.com/user-attachments/assets/2c5279af-a176-4d66-bac5-43e97867ef8b" />
+<img width="1227" height="492" alt="image" src="https://github.com/user-attachments/assets/21ff1ae6-aa4b-4f86-908e-5f430752172c" />
 
 - What is the distribution of texture? What are the most dominant textures?
   
-<img width="1232" height="662" alt="image" src="https://github.com/user-attachments/assets/08a918f4-68e2-4e9b-935b-41dc67c2f3d3" />
+<img width="1227" height="492" alt="image" src="https://github.com/user-attachments/assets/4d4e4f91-a031-4bb0-82a3-76ed96a1bde4" />
 
 - What is the distribution of Shape, Color and Composition?
   

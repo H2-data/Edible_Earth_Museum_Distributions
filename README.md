@@ -86,38 +86,21 @@ Preprocessing:
 
 Let's go through and answer each of the data questions:
 
-- What is the distribution of collection samples over the years?
+- Where and how were the minerals acquired? What countries where they commonly acquired?
 
-counts = df['Acq Year'].value_counts().reset_index()
-countsy = counts.sort_values(by = 'Acq Year')
-countsy
+<img width="1249" height="286" alt="The Museum of Edible Earth (1)" src="https://github.com/user-attachments/assets/a69d3042-4081-470b-ae73-59039bccc277" />
 
-[INSERT TABLEAU IMAGE DASHBOARD HERE]
+- What is the distribution of taste? What are the most dominant tastes?
 
-- Where and how were the minerals acquired? What are the top 10 countries for mineral acquisition?
+<img width="1228" height="675" alt="image" src="https://github.com/user-attachments/assets/2c5279af-a176-4d66-bac5-43e97867ef8b" />
 
-[INSERT TOP 10 TABLE, MAP AND MAYBE LIKE A BAR/BUBBLE CHART HERE]
+- What is the distribution of texture? What are the most dominant textures?
+  
+<img width="1232" height="662" alt="image" src="https://github.com/user-attachments/assets/08a918f4-68e2-4e9b-935b-41dc67c2f3d3" />
 
-- What is the distribution of taste? What are the top 5?
-
-```Python
-taste_counts = df_exploded1['Taste'].value_counts().reset_index()
-taste_counts.nlargest(5, 'count').set_index('Taste')
-```
-[INSERT TABLE AND VISUAL HERE]
-
-- What is the distribution of texture? What are the top 5?
-
-```Python
-texture_counts = df_exploded2['Texture'].value_counts().reset_index()
-texture_counts.nlargest(5, 'count').set_index('Texture')
-```
-
-[INSERT TABLE AND VISUAL HERE]
-
-What is the distribution of Shape, Color and Composition?
-
-[INSERT TABLE AND VISUAL HERE]
+- What is the distribution of Shape, Color and Composition?
+  
+<img width="1219" height="274" alt="image" src="https://github.com/user-attachments/assets/a7fb243e-a598-47cc-8816-5b2fdf33fec2" />
 
 To see all comments and Python visuals, please see the analysis section of this project, linked below:
 

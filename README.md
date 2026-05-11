@@ -33,23 +33,19 @@ To interact with the dashboard, see the Tableau section of the project, linked h
 Aside from generic cleaning (outliers, duplicates and missing values), this data presented unique preprocessing challenges. The mineral taste and texture descriptions were actually obtained publicly from comment sections on the website and placed into a word cloud on the mineral sample's catalog page like so: 
 
 <div align="center">
-  <img width="550" height="352" alt="image" src="https://github.com/user-attachments/assets/4d96ef2f-bde6-4319-9299-d0de595ff69d" />
+  <img width="660" height="695" alt="image" src="https://github.com/user-attachments/assets/9ecee814-54de-4d4a-b75f-784ef0c4e5fc" />
 </div>
+<br>
 
 This presented the following problems:
 
 1. Because the descriptions from the comment section are so varied, there are over 600 unique descriptions for a relatively small collection of minerals, which isn't very good for visualization. To solve this, I created a list of 20 tastes and 20 textures, and I applied them to each unique value in Excel. Below are a few examples.
 
-| Description | Taste | Texture |
-| :--- | :--- | :--- |
-| baking soda | Chemical, Bitter | Powdery |
-| calcium | Metallic | Chalky |
-| candy | Sweet | Hard |
-| cinnamon | Sweet, Spicy | Powdery |
-| dry | N/A | Dry |
 
-<img width="167" height="377" alt="image" src="https://github.com/user-attachments/assets/9bf13743-2fc9-4585-ba94-08b7f864bfad" />
-
+<div align="center">
+<img width="660" height="597" alt="image" src="https://github.com/user-attachments/assets/f3d8c356-c14e-47cc-9bca-0ebe96bbef18" />
+</div>
+<br>
 2. Next, I have to map the new shortlist of flavors and textures onto the original data. I used the following code to ensure that each original flavor/texture was replaced with a combination the tastes and textures from my shortlist.
 
 ```Python
@@ -89,14 +85,17 @@ Let's go through and answer each of the data questions:
 - Where and how were the minerals acquired? What countries where they commonly acquired?
 
 <img width="1249" height="286" alt="The Museum of Edible Earth (1)" src="https://github.com/user-attachments/assets/a69d3042-4081-470b-ae73-59039bccc277" />
+<br>
 
 - What is the distribution of taste? What are the most dominant tastes?
 
 <img width="1227" height="492" alt="image" src="https://github.com/user-attachments/assets/21ff1ae6-aa4b-4f86-908e-5f430752172c" />
+<br>
 
 - What is the distribution of texture? What are the most dominant textures?
   
 <img width="1227" height="492" alt="image" src="https://github.com/user-attachments/assets/4d4e4f91-a031-4bb0-82a3-76ed96a1bde4" />
+<br>
 
 - What is the distribution of Shape, Color and Composition?
   

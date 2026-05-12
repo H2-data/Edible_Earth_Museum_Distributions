@@ -32,9 +32,7 @@ To interact with the dashboard, see the Tableau section of the project, linked h
 
 Aside from generic cleaning (outliers, duplicates and missing values), this data presented unique preprocessing challenges. The mineral taste and texture descriptions were actually obtained publicly from comment sections on the website and placed into a word cloud on the mineral sample's catalog page like so: 
 
-<div align="center">
-  <img width="660" height="695" alt="image" src="https://github.com/user-attachments/assets/9ecee814-54de-4d4a-b75f-784ef0c4e5fc" />
-</div>
+<img width="1292" height="627" alt="image" src="https://github.com/user-attachments/assets/dce3520e-876b-4fcf-95be-50ee50f06339" />
 <br>
 
 This presented the following problems:
@@ -43,10 +41,10 @@ This presented the following problems:
 
 
 <div align="center">
-<img width="660" height="597" alt="image" src="https://github.com/user-attachments/assets/f3d8c356-c14e-47cc-9bca-0ebe96bbef18" />
+<img width="660" height="695" alt="image" src="https://github.com/user-attachments/assets/9ecee814-54de-4d4a-b75f-784ef0c4e5fc" />
 </div>
 <br>
-2. Next, I have to map the new shortlist of flavors and textures onto the original data. I used the following code to ensure that each original flavor/texture was replaced with a combination the tastes and textures from my shortlist.
+2. Next, I have to map the new shortlist of flavors and textures onto the original data. I used the following code to ensure that each original flavor/texture was replaced with a combination of the tastes and textures from my shortlists.
 
 ```Python
 taste_map = df2.set_index('Description')['Taste'].to_dict()
@@ -87,19 +85,28 @@ Let's go through and answer each of the data questions:
 <img width="1249" height="286" alt="The Museum of Edible Earth (1)" src="https://github.com/user-attachments/assets/a69d3042-4081-470b-ae73-59039bccc277" />
 <br>
 
+Most of the samples were collected in 2018 and 2019-2021. Most acquisitions were done over the internet, or received as gifts. A vast majority of samples came from Russia, Suriname and Ukraine.
+
 - What is the distribution of taste? What are the most dominant tastes?
 
 <img width="1227" height="492" alt="image" src="https://github.com/user-attachments/assets/21ff1ae6-aa4b-4f86-908e-5f430752172c" />
 <br>
+
+The top 5 tastes are **Earthy, Milky, Herbal, Bitter and Sweet.** I won't count 'Tasty' or 'Experience', as they're a different kind of descriptive.
 
 - What is the distribution of texture? What are the most dominant textures?
   
 <img width="1227" height="492" alt="image" src="https://github.com/user-attachments/assets/4d4e4f91-a031-4bb0-82a3-76ed96a1bde4" />
 <br>
 
+The top 5 textures are **Soft, Hard, Damp, Creamy and Crunchy.** I won't count 'Tasty' or 'Experience', as they're a different kind of descriptive.
+
 - What is the distribution of Shape, Color and Composition?
   
 <img width="1219" height="274" alt="image" src="https://github.com/user-attachments/assets/a7fb243e-a598-47cc-8816-5b2fdf33fec2" />
+<br>
+
+The most common sample attributes are a clay-like composition, a white color and a raw shape.
 
 To see all comments and Python visuals, please see the analysis section of this project, linked below:
 

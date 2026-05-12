@@ -108,11 +108,11 @@ The top 5 textures are **Soft, Hard, Damp, Creamy and Crunchy.** I won't count '
 
 The most common sample attributes are a clay-like composition, a white color and a raw shape.
 
-To see all comments and Python visuals, please see the analysis section of this project, linked below:
+To see all comments, conclusions and Python visuals, please see the analysis section of this project, linked below:
+
+Analysis:
 
 To see the final Tableau dashboard, please see the dashboard section of this project, linked below.
 
-Analysis:
 Tableau:
 
-### **Conclusions:**

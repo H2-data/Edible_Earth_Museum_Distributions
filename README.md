@@ -73,8 +73,9 @@ For analysis, visualization and ensuring each value only appears once per cell, 
 
 To see the full scraping and cleaning process, please see the scraping section and the preprocessing section of the project, linked below.
 
-Scraping:
-Preprocessing:
+[Dictionary](01_Dictionary_and_Context.ipynb)  
+[Scraping](02_Scraping_Dirt_S.ipynb)  
+[Preprocessing](03_CleaningDirt.ipynb)  
 
 ### **Results and Observations:**
 
@@ -110,7 +111,7 @@ The most common sample attributes are a clay-like composition, a white color and
 
 To see all comments, conclusions and Python visuals, please see the analysis section of this project, linked below:
 
-Analysis:
+[Analysis](04_EdibleAnalysis.ipynb)  
 
 To see the final Tableau dashboard, please see the dashboard section of this project, linked below.
 

@@ -28,6 +28,8 @@ The Museum of Edible Earth is a collection exhibit created and curated by Mashar
 
 To interact with the dashboard, see the Tableau section of the project, linked here:
 
+[Dashboard](https://public.tableau.com/views/EdibleEarthPortfolio/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ### **Data Preprocessing:**
 
 Aside from generic cleaning (outliers, duplicates and missing values), this data presented unique preprocessing challenges. The mineral taste and texture descriptions were actually obtained publicly from comment sections on the website and placed into a word cloud on the mineral sample's catalog page like so: 
@@ -111,9 +113,4 @@ The most common sample attributes are a clay-like composition, a white color and
 
 To see all comments, conclusions and Python visuals, please see the analysis section of this project, linked below:
 
-[Analysis](04_EdibleAnalysis.ipynb)  
-
-To see the final Tableau dashboard, please see the dashboard section of this project, linked below.
-
-Tableau:
-
+[Analysis](04_EdibleAnalysis.ipynb)

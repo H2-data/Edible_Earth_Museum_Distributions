@@ -6,11 +6,10 @@
 
 ---
 
-Files are labelled from 01-04. They can be read in numeric order. The dashbord is screenshotted and linked below, and it is the last step in the process.
-
 ### **Important Notes:** 
 
 - The following data is real data from a real collection exhibit, however most of this information is publicly available on the exhibit website and catalog. Furthermore, I have received permission from masharu, the exhibit curator, to use the visuals and dashboards in my portfolio, and the master dataset will not be shown due to privacy reasons.
+- Files are labelled from 01-04. They can be read in numeric order. The dashbord is screenshotted and linked below, and it is the last step in the process.
 
 ### **Scenario and Objective:**
 
